@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Judul pada tab browser -->
+    <title>LeafletJS</title>
+
+    <!-- Leaflet CSS Library -->
+    <link rel="stylesheet" href="css/leaflet.css">
+
+    <!-- Style untuk tampilan peta fullscreen -->
+    <style>
+        html,
+        body,
+        #map {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Leaflet JavaScript Library -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+    <!-- HTML Block untuk menampilkan peta -->
+    <div id="map"></div>
+    <script>
+        /* Initial Map */
+        var map = L.map('map').setView([-7.9, 110.45], 10); //lat, long, zoom
+
+        /* Tile Basemap */
+        var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            //attribution akan muncul di pojok kanan bawah
+            attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://www.sinaugis.com" target="_blank">SinauGIS@2020</a>'
+        });
+        basemap.addTo(map); //Memanggil basemap untuk ditampilkan ketika halaman dipanggil
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+.navbar {
+    height: 80px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.navbar-brand img {
+    width: 250px;
+}
+
+.collapse .navbar-nav .nav-item {
+    margin-right: 55px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    color: #c4c4c4;
+}
+
+.tombol {
+    background-color: #f9a826;
+    color: white;
+    border-radius: 100px;
+}
+
+.btn {
+    padding: 8px 55px;
+    color: white;
+    margin-right: -55px;
+}
+
+.infoDetail {
+    background-color: #F0A25A;
+    height: 35px;
+    width: 116px;
+    color: white;
+    border: none;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+.lihatLokasi {
+    background-color: #FF385C;
+    height: 35px;
+    width: 116px;
+    color: white;
+    border: none;
+}
+
+.dasbord {
+    margin-top: 80px;
+}
+
+.dasbord h3 {
+    font-family: "Pacifico", cursive;
+    font-size: 26px;
+    padding-top: 25px;
+    color: #7b7b7b;
+}
+
+.dasbord h4 {
+    font-size: 18px;
+    color: #7b7b7b;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+.dasbord .form-row {
+    padding-right: 30px;
+}
+
+.dasbord .form-row .form-group label {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 14px;
+    color: #7b7b7b;
+    margin-bottom: -10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+/* Map */
+#map {
+    margin-top: 80px;
+    position: absolute;
+    float: left;
+    top: 1%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+.title-sub {
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: -2px;
+}
+
+
+.form-pekerjaan .progres-kerja {
+    margin-left: -5px;
+    font-family: Roboto, sans-serif;
+}
+
+.form-pekerjaan .progres-kerja h5 {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #B4B2AD;
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.form-pekerjaan .progres-kerja p {
+    font-size: 12px;
+    margin-right: -30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.form-pekerjaan .progres-kerja .progress-bar {
+    background-color: #6CEB61;
+}
+
+.form-pekerjaan .progres-kerja .progress {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.form-pekerjaan .carousel-inner .carousel-item img {
+    width: 220px;
+    height: 255px;
+    border-radius: 10px;
+}
+
+.form-pekerjaan .date {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 11px;
+    color: #7b7b7b;
+    margin-top: 5px;
+}
+
+.kiri {
+    padding-left: 80px;
+}
+
+.posisi {
+    background-color: white;
+    position: fixed;
+    padding-right: 100px;
+    z-index: 1;
+}
+
+.konten-pekerjaan {
+    margin-top: 230px;
+    position: absolute;
+
+}
